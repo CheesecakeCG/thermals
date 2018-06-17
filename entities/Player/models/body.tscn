@@ -1,0 +1,121 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://entities/Player/models/fox_0.dae" type="PackedScene" id=1]
+[ext_resource path="res://addons/jigglebones/jigglebone.gd" type="Script" id=2]
+[ext_resource path="res://addons/jigglebones/icon.svg" type="Texture" id=3]
+
+[node name="Scene Root" index="0" instance=ExtResource( 1 )]
+
+[node name="Jigglebone" type="Spatial" parent="Armature/Skeleton" index="3"]
+
+transform = Transform( 1, -1.02826e-08, 4.93904e-08, -1.27814e-08, 0.895433, 0.445201, -4.8804e-08, -0.445201, 0.895432, 2.68221e-07, -1.21469, -2.97591 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Tail"
+stiffness = 2.4
+damping = 2.7
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Jigglebone3" type="Spatial" parent="Armature/Skeleton" index="4"]
+
+transform = Transform( 1, -4.53035e-09, 4.81521e-08, -8.93459e-09, 0.961167, 0.275977, -4.75328e-08, -0.275977, 0.961167, 1.49012e-07, -2.01162, -5.39646 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Tail.002"
+stiffness = 5.8
+damping = 1.5
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Jigglebone4" type="Spatial" parent="Armature/Skeleton" index="5"]
+
+transform = Transform( 1, 8.3238e-09, 1.89531e-07, 8.32393e-09, 0.99615, -0.0876676, -1.89531e-07, 0.087667, 0.99615, -2.68221e-07, -1.99726, -7.9518 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Tail.003"
+stiffness = 5.8
+damping = 1.1
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Jigglebone5" type="Spatial" parent="Armature/Skeleton" index="6"]
+
+transform = Transform( 1, 3.96653e-08, 2.00469e-07, 4.63142e-08, 0.911467, -0.411374, -1.99038e-07, 0.411374, 0.911467, -5.96046e-07, -1.18574, -9.65294 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Tail.004"
+stiffness = 5.8
+damping = 0.9
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Jigglebone6" type="Spatial" parent="Armature/Skeleton" index="7"]
+
+transform = Transform( 1, -8.27199e-08, -2.32532e-07, -7.01602e-08, 0.808015, -0.589162, 2.36625e-07, 0.589162, 0.808016, -1.19209e-07, -0.0283566, -11.2187 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Tail.005"
+stiffness = 5.8
+damping = 0.7
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Jigglebone7" type="Spatial" parent="Armature/Skeleton" index="8"]
+
+transform = Transform( 1, -1.00292e-07, -2.36576e-07, -9.14794e-08, 0.721411, -0.692508, 2.40122e-07, 0.692508, 0.721411, 3.8743e-07, 1.50729, -12.8711 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Tail.006"
+stiffness = 5.8
+damping = 0.3
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Ear" type="Spatial" parent="Armature/Skeleton" index="9"]
+
+transform = Transform( 0.781029, -0.220753, -0.584174, -0.220837, 0.77736, -0.589013, 0.584141, 0.589045, 0.558391, 2.05035, 11.3083, -4.09333 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Ear.L"
+stiffness = 2.0
+damping = 0.0
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+[node name="Ear2" type="Spatial" parent="Armature/Skeleton" index="10"]
+
+transform = Transform( 0.781028, 0.220836, 0.58414, 0.220766, 0.777346, -0.589056, -0.584165, 0.58903, 0.558377, -2.05035, 11.3083, -4.09332 )
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+bone_name = "Ear.R"
+stiffness = 2.0
+damping = 0.0
+use_gravity = false
+gravity = Vector3( 0, -9.81, 0 )
+forward_axis = 5
+
+
